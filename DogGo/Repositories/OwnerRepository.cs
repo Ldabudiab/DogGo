@@ -154,6 +154,7 @@ namespace DogGo.Repositories
                 }
             }
         }
+        
         public void DeleteOwner(int ownerId)
         {
             using (SqlConnection conn = Connection)
